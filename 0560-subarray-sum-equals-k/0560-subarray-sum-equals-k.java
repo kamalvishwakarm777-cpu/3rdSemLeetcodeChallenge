@@ -1,19 +1,22 @@
+import java.util.*;
+
 class Solution {
     public int subarraySum(int[] nums, int k) {
+        Map<Integer,Integer> mpp = new HashMap<>();
         int n = nums.length;
 
+        int prefixSum = 0;
         int count = 0;
+        mpp.put(0,1);
 
         for(int i = 0;i < n;i++){
+            prefixSum += nums[i];
 
-            int sum = 0;
-            for(int j = i;j < n;j++){
-                sum += nums[j];
+            int remove = prefixSum - k;
 
-                if(sum == k){
-                count++;
-                }
-            }
+            count += mpp.getOrDefault(remove,0);
+
+            mpp.put(prefixSum,mpp.getOrDefault(prefixSum,0) + 1);
         }
 
         return count;
