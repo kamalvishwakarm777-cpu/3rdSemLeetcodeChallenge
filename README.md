@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0169-majority-element) |
 | [0485-max-consecutive-ones](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0560-subarray-sum-equals-k) |
+| [0922-sort-array-by-parity-ii](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0922-sort-array-by-parity-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
@@ -31,12 +32,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0075-sort-colors) |
+| [0922-sort-array-by-parity-ii](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0922-sort-array-by-parity-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0169-majority-element) |
+| [0922-sort-array-by-parity-ii](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0922-sort-array-by-parity-ii) |
 ## Quicksort
 |  |
 | ------- |
