@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0078-subsets) |
 | [0119-pascals-triangle-ii](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0128-longest-consecutive-sequence) |
@@ -99,5 +100,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0136-single-number) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/kamalvishwakarm777-cpu/3rdSemLeetcodeChallenge/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
