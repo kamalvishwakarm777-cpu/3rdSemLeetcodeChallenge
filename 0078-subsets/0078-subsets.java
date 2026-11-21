@@ -1,9 +1,7 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        List<Integer> ans = new ArrayList<>();
-
-        createSubset(nums,0,res,ans);
+        createSubset(nums,0,res,new ArrayList<>());
         return res;   
     }
     
