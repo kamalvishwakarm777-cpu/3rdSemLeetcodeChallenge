@@ -1,29 +1,31 @@
 class Solution {
-    private void recurPermute(int[] nums,boolean[] freq, List<List<Integer>> ans,List<Integer> ds){
+    private void recurpermute(int idx,int[] nums,List<List<Integer>> ans){
+        if(idx == nums.length){
+            List<Integer> ds = new ArrayList<>();
+            
+            for(int i = 0;i < nums.length;i++){
+                ds.add(nums[i]);
+            }
 
-        if(ds.size() == nums.length){
             ans.add(new ArrayList<>(ds));
             return;
         }
-
-        for(int i = 0;i < nums.length;i++){
-
-            if(!freq[i]){
-                freq[i] = true;
-                ds.add(nums[i]);
-
-                recurPermute(nums,freq,ans,ds);
-
-                ds.remove(ds.size() - 1);
-                freq[i] = false;
-            }
+        for(int i = idx;i < nums.length;i++){
+            swap(i,idx,nums);
+            recurpermute(idx + 1,nums,ans);
+            swap(i,idx,nums);
         }
     }
+    private void swap(int i ,int j ,int[] nums){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        boolean[] freq = new boolean[nums.length];
-
-        recurPermute(nums,freq,ans,new ArrayList<>());
+        
+        recurpermute(0,nums,ans);
         return ans;
     }
 }
